@@ -1,2 +1,2 @@
 # investor
-Technical, fundamental, quant analysis and machine learning.
+Develop strategies, algorithms and models.

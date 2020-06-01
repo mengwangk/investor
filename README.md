@@ -1,2 +1,2 @@
 # investor
-Develop strategies, algorithms and models.
+investor data science project to develop strategies, algorithms and models.

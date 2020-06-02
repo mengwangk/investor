@@ -1,8 +1,8 @@
 {
-  "project_name": "investor data science starter",
+  "project_name": "data science",
   "python_version": "3.8",
   "python_major_version": "{{ cookiecutter.python_version[0] }}",
-  "author_name": "investor",
+  "author_name": "mengwangk",
   "github_org": "{{ cookiecutter.author_name.replace(' ', '') }}",
   "team_name": "{{ cookiecutter.github_org.lower().replace('-', '').replace('_', '') }}",
   "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",

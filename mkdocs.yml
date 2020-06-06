@@ -9,3 +9,30 @@ site_dir: "_docs"
 
 nav:
   - Home: index.md
+
+theme:
+  name: material
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - python
+    - Bash
+    - R
+    - Dockerfile
+    - Python
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - pymdownx.superfences
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: []
+      toc_depth: 2
+
+plugins:
+  - search

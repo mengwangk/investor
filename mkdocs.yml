@@ -1,1 +1,11 @@
 site_name: investor
+site_description: "investor data science project to develop strategies, algorithms and models"
+site_author: "mengwangk"
+
+repo_url: https://github.com/mengwangk/investor
+edit_uri: https://github.com/mengwangk/investor/tree/master/docs
+docs_dir: "docs"
+site_dir: "_docs"
+
+nav:
+  - Home: index.md

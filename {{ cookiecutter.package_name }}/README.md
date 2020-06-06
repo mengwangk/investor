@@ -8,6 +8,7 @@ In order to do development on this project, you will need the following tools in
 - [Python](https://www.python.org) version 3.6 or greater.
 - [Conda](https://conda.io/en/latest/miniconda.html)
 - [Git](https://git-scm.com)
+- [nbdev](https://github.com/fastai/nbdev)
 
 ## Getting started
 First, make a [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) of this repo into your personal repositories.

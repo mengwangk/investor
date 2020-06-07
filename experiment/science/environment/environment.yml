@@ -1,0 +1,9 @@
+name: investor
+channels:
+- fastai
+- pytorch
+- defaults
+dependencies:
+- jupyter
+- python=3.8
+- nbdev

@@ -1,0 +1,9 @@
+name: {{ cookiecutter.package_name }}
+channels:
+- fastai
+- pytorch
+- defaults
+dependencies:
+- jupyter
+- python={{ cookiecutter.python_version }}
+- nbdev

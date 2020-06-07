@@ -1,7 +1,8 @@
 {
-  "project_name": "data science",
+  "project_name": "investor data science",
   "python_version": "3.8",
   "python_major_version": "{{ cookiecutter.python_version[0] }}",
   "author_name": "mengwangk",
-  "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
+  "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "user_name": "{{ cookiecutter.author_name.lower().replace(' ', '_').replace('-', '_') }}",
 }

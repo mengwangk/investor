@@ -1,10 +1,10 @@
 SRC = $(wildcard ./*.ipynb)
 
-all: investor docs
+all: {{ cookiecutter.package_name }} docs
 
-investor: $(SRC)
+{{ cookiecutter.package_name }}: $(SRC)
 	nbdev_build_lib
-	touch investor
+	touch {{ cookiecutter.package_name }}
 
 docs_serve: docs
 	cd docs && bundle exec jekyll serve

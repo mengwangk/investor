@@ -6,7 +6,7 @@
   "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "user_name": "{{ cookiecutter.author_name.lower().replace(' ', '_').replace('-', '_') }}",
   "_copy_without_render": [
-    "*science/notebooks/docs"
+    "*science/notebooks/docs",
     "*science/notebooks/nbs"
   ]
 }

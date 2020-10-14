@@ -352,6 +352,9 @@ def utils_generate_indexdate(start, end=None, n=None, freq="D"):
     else:
         index = pd.date_range(start=start, periods=n, freq=freq)
     index = index[1:]
+    # print("start ", start)
+    # print("end ", end)
+    # print("index --", index)
     print("--- generating index date --> start:", index[0], "| end:", index[-1], "| len:", len(index), "---")
     return index
 
